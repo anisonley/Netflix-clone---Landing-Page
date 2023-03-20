@@ -1,8 +1,11 @@
+
+
 body {
   margin: 0;
   padding: 0;
   background-color: rgba(20, 20, 20, 1);
   color: white;
+
 }
 header{
  display: flex;
@@ -25,4 +28,124 @@ header{
   display: flex;
   justify-content: space-between;
   padding: 10px 10px 10px 10px;
+}
+
+.headline{
+  position: relative;
+  text-align: center;
+}
+
+h2{
+  font-size: 900;
+}
+.text{
+  position: absolute;
+  top: 100px;
+  left: 16px;
+  line-height: 1;
+  padding-left: 40px;
+  text-align: justify;
+  font-size: xx-large;
+}
+
+span{
+  font-weight: 400;
+}
+
+h3{
+  font-size: larger;
+  font-weight: 300;
+}
+
+.message{
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 25px;
+}
+.popular{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.headlineText{
+  text-align: left;
+}
+
+.btn1 {
+  padding: 12px;
+}
+
+.btn2 {
+  padding: 12px;
+  opacity: .6;
+}
+
+h4{
+  font-family: 300;
+  font-size: 23px;
+  line-height: 33.2px;
+  padding-left: 40px;
+}
+figure{
+  display: flex;
+  justify-content: space-between;
+}
+img{
+  border: 10px black;
+}
+
+.container{
+  width: 100%;
+  display: fl;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 20px 20px;
+}
+ button{
+  cursor: pointer;
+  transition: 200ms;
+ }
+
+ .socials{
+  width: 60%;
+  margin: 1.5% auto;
+  font-size: 30px;
+ }
+ table{
+  width: 60%;
+  margin: 1.5% auto;
+  font-size: 13px;
+  line-height: 10px;
+  color: #808080;
+}
+td{
+  width: 25%;
+  padding: 1% 0;
+  text-align: left;
+}
+
+a{
+  text-decoration: none;
+}
+
+.btnf{
+  width: 60%;
+  margin: 1.5% auto;
+}
+
+.top{
+  background-color: rgba(20, 20, 20, 1);
+  color: #808080;
+  border: 2px solid  #808080;
+  padding: 10px;
+  text-align: center;
+}
+.copy{
+  width: 60%;
+  margin: 1.5% auto;
+  line-height: 10px;
+  color: #808080;
+  text-align: center;
 }
