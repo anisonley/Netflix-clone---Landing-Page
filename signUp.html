@@ -9,52 +9,50 @@
 </head>
 <body>
   <header>
-    <h1 id="logo">NETFLIX</h1>
+    <a href="/index.html"><img src="/Images/Fill-14.png" alt="Netflix Logo" id="logo" ></a>
   </header>
   <main>
-   <header>
-    <h1 id="sign-in">SIGN IN</h1>
-  </header>
-    
+    <h1 id="sign-in">Sign In</h1>
     <form id="fill-in">
       <input 
-        type="text"
-        id=""
-        placeholder="Email or Phone number">
+        type="email" id="" placeholder="Email or Phone number">
 
       <input 
-        type="text"
-        id=""
-        placeholder="Password">
+        type="password" id=""  placeholder="Password">
       
+      <a href="./profiles.html" target="_blank"><input type="submit"  value="Sign In"></a>
+      <input type="checkbox">
+        <label>Remember Me</label>
+      <a href="#">Need help?</a>
     </form>
-
-    <button id="btn">Sign In</button>
-    <p>Remember Me</p>
-    <p>Need help?</p>
-
-    <a href="www.facebook.com"><img src="FB (2).png" alt="facebook" width="25px" height="25px"> login with Facebook</a>
-    <p>New to Netflix? <a href="www.netflix.com/signup">Sign up now</a></p>
-    <p>This page is protected by Google reCAPTCHA <br> ensure you're not a bot. <a href="">Learn more.</a></p>
-
+    <article class="content">
+      <a href="www.facebook.com" id="logini"><img src="FB (2).png" alt="facebook" width="25px" height="25px"> login with Facebook</a>
+      <h2>New to Netflix? <a href="#">Sign up now</a></h2><br>
+      <h2>This page is protected by Google reCAPTCHA <br> ensure you're not a bot. <a href="">Learn more.</a></h2>
+    </article>
   </main>
-  <footer class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="footer-col">
-          <p>Questions? Call 1-944-505-2993</p>
-          <ul style="list-style-type:none">
-            <li><a href="#FAQ" >FAQ</a></li>
-            <li><a href="#Help Center">Help Center</a></li>
-            <li><a href="#Terms of Use">Terms of Use</a></li>
-            <li><a href="#Privacy">Privacy</a></li>
-            <li><a href="#Cookie Preferences">Cookie Preferences</a></li>
-            <li><a href="#Corporate Information">Corporate Information</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+  <footer>
+    <section>
+      <p id="phoneNumber"> Questions? Call 1-844-505-2993 </p>
+      <table>
+        <tr>
+          <td><a href="#">FAQ</a></td>
+          <td><a href="#">Help Center</a></td>
+          <td><a href="#">Terms of Use</a></td>
+          <td><a href="#">Privacy</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Cookie Preferences</a></td>
+          <td><a href="#">Corporate Information</a></td>
+        </tr>
+      </table>
+    </section>
+      <select name="language" id="language">
+        <option value="English">English</option>
+        <option value="French">French</option>
+      </select>   
   </footer>
+
 
 </body>
 </html>
