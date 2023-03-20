@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(20, 20, 20, 1);
+  color: white;
+}
+header{
+ display: flex;
+ height: inherit;
+
+}
+
+.logo{
+  width: .20;
+  margin: 5px;
+  padding: 10px 10px 10px 10px;
+}
+
+.navbar{
+  justify-content: space-between;
+}
+
+
+.profile_options{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 10px 10px;
+}
