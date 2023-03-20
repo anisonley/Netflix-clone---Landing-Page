@@ -1,5 +1,3 @@
-
-
 body {
   margin: 0;
   padding: 0;
@@ -8,8 +6,9 @@ body {
 
 }
 header{
- display: flex;
- height: inherit;
+ width: 100%; 
+ padding: 0.1%;
+ position: relative;
 
 }
 
@@ -20,14 +19,29 @@ header{
 }
 
 .navbar{
+  display: flex;
+  align-items: center;
   justify-content: space-between;
+  padding: 10px 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 15px;
 }
 
 
 .profile_options{
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding: 10px 10px 10px 10px;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.profile_options i p img{
+  display: inline-block;
+  margin: 0 15px;
 }
 
 .headline{
@@ -128,6 +142,7 @@ td{
 
 a{
   text-decoration: none;
+  color: white;
 }
 
 .btnf{

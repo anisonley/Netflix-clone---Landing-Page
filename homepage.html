@@ -11,24 +11,27 @@
 </head>
 <body>
   <header>
-    <img class="logo" src="Images/Fill-14.png" alt="Netflix Logo">
     <nav class="navbar">
+    <img class="logo" src="Images/Fill-14.png" alt="Netflix Logo">
       <ul class="navbar">
-        <ls><strong>Ana Sayfa</strong></ls>
-        <ls>Diziler</ls>
-        <ls>Filmler</ls>
-        <ls>Yeni ve Popüler</ls>
-        <ls>Listem</ls>
+        <li><a href="#"><strong>Ana Sayfa</strong></a></li>
+        <li><a href="#">Diziler</a></li>
+        <li><a href="#">Filmler</a></li>
+        <li><a href="#">Yeni ve Popüler</a></li>
+        <li><a href="#listem">Listem</a></li>
       </ul>
+      <section class="profile_options">
+        <ul class="navbar">
+          <li><a href="https://www.google.com/"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+          <li><a href="#"><p>ÇOCUK</p></a></li>
+          <li><a href="#"><i class="fa-solid fa-bell"></i></i></i></a></li> 
+          <li><a href="profiles.html"><img src="./Images/ProfilePicture-1.png" alt="profile" width="32" height="32"></a></li>
+          <li> <a href="profiles.html"><i class="fa-solid fa-caret-down"></i></a><li> 
+        </ul>
+
+      </section>
     </nav>
-    <section class="profile_options">
-      <i class="fa-solid fa-magnifying-glass"></i>
-      <p>ÇOCUK</p>
-      <i class="fa-regular fa-gift"></i>
-      <i class="fa-regular fa-bell"></i>
-      <img src="./Images/ProfilePicture-1.png" alt="profile" width="32" height="32">
-      <i class="fa-solid fa-caret-down"></i>
-    </section>
+    
   </header>
   <main>
     <section class="headline">
@@ -45,7 +48,7 @@
       </div>
     </article>
       <div class="popular">
-        <h4 class="headlineText">Netflix'te Popüler</h4>
+        <h4 class="headlineText"><a href="#">Netflix'te Popüler</a></h4>
         <figure>
           <img src="./Images/movie/MoviePoster.png" alt="" >
           <img src="./Images/movie/MoviePoster-1.png" alt="" >
@@ -56,7 +59,7 @@
       </div>
     </section>
     <div class="popular1">
-      <h4>Kemal, İzlemeye Devam Et</h4>
+      <h4><a href="#">Kemal, İzlemeye Devam Et</a></h4>
       <figure>
         <img src="./Images/movie1/Movi.png" alt="" >
         <img src="./Images/movie1/Movi-1.png" alt="" >
@@ -66,7 +69,7 @@
       </figure>
     </div>
     <div class="popular2">
-      <h4>Gündemdekiler</h4>
+      <h4><a href="#">Gündemdekiler</a></h4>
       <figure>
         <img src="./Images/movie2/MoviePoster.png" alt="" >
         <img src="./Images/movie2/MoviePoster-1.png" alt="" >
@@ -76,7 +79,7 @@
       </figure>
     </div>
     <div class="popular3">
-      <h4>Netflix Orijinal İçerikleri</h4>
+      <h4><a href="#">Netflix Orijinal İçerikleri</a></h4>
       <figure>
         <img src="./Images/movie3/MoviePoster.png" alt="" >
         <img src="./Images/movie3/MoviePoster-1.png" alt="" >
@@ -86,7 +89,7 @@
       </figure>
     </div>
     <div class="popular5">
-      <h4>Yeniden İzle</h4>
+      <h4><a href="#">Yeniden İzle</a></h4>
       <figure>
         <img src="./Images/movie5/MoviePoster6.png" alt=""  width="150">
         <img src="./Images/movie5/MoviePoster.png" alt="" >
@@ -97,7 +100,7 @@
       </figure>
     </div>
     <div class="popular6">
-      <h4>Listem</h4>
+      <h4 id="listem"><a href="#">Listem</a></h4>
       <figure>
         <img src="./Images/movie6/MoviePoster.png" alt="" >
         <img src="./Images/movie6/MoviePoster-1.png" alt="" >
